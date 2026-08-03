@@ -173,7 +173,16 @@ body.sticky-bottom-footer {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .academic-home {
+    .academic-home-intro {
+      gap: 1.5rem;
+      grid-template-columns: minmax(0, 1fr) minmax(190px, 0.65fr);
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
   .academic-home {
     .academic-home-intro {
       gap: 1.5rem;
