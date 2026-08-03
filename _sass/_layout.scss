@@ -31,20 +31,253 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
-// Profile
-.profile {
-  img {
+// Reference-inspired academic homepage
+.academic-home {
+  .academic-home-header {
+    margin-bottom: 1.75rem;
+
+    .post-title {
+      font-size: clamp(2.5rem, 6vw, 3.35rem);
+      font-weight: 300;
+      letter-spacing: -0.035em;
+      line-height: 1.05;
+      margin-bottom: 0.45rem;
+    }
+
+    .academic-home-first-name {
+      font-weight: 700;
+    }
+  }
+
+  .academic-home-intro {
+    align-items: start;
+    display: grid;
+    gap: 2.75rem;
+    grid-template-columns: minmax(0, 2fr) minmax(240px, 0.9fr);
+  }
+
+  .academic-home-copy {
+    font-size: 1.05rem;
+    line-height: 1.62;
+
+    p {
+      margin-bottom: 1.2rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-top: 1.6rem;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+  }
+
+  .academic-home-profile {
+    float: none;
+    margin: 0;
     width: 100%;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .more-info {
+      font-family: monospace;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      margin-top: 1rem;
+
+      p {
+        display: block;
+        margin: 0;
+      }
+    }
+  }
+
+  .academic-home-section {
+    margin-top: 2.6rem;
+
+    > h2 {
+      font-size: clamp(2rem, 5vw, 2.5rem);
+      font-weight: 300;
+      letter-spacing: -0.025em;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .academic-home-news {
+    .news .table-responsive {
+      max-height: none !important;
+    }
+
+    .news table {
+      margin-bottom: 0;
+
+      th,
+      td {
+        border: 0;
+        padding: 0.65rem 0.4rem;
+        vertical-align: top;
+      }
+
+      th {
+        font-weight: 600;
+        padding-left: 0;
+        white-space: nowrap;
+        width: 21% !important;
+      }
+
+      td {
+        padding-right: 0;
+      }
+    }
+  }
+
+  .academic-home-publications {
+    .publications {
+      margin-top: 1.25rem;
+    }
+
+    ol.bibliography li {
+      margin-bottom: 2.25rem;
+    }
+  }
+
+  .academic-home-social {
+    margin-top: 2.75rem;
+
+    .contact-icons {
+      font-size: clamp(2.75rem, 8vw, 4.25rem);
+      line-height: 1.2;
+
+      a {
+        display: inline-block;
+        margin: 0 0.12em;
+      }
+    }
+
+    .contact-note {
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      margin-top: 0.75rem;
+    }
   }
 }
 
-// TODO: redefine content layout.
+@media (max-width: 767.98px) {
+  .academic-home {
+    .academic-home-intro {
+      gap: 1.5rem;
+      grid-template-columns: 1fr;
+    }
+
+    .academic-home-profile {
+      grid-row: 1;
+      max-width: 330px;
+
+      img {
+        aspect-ratio: 4 / 3;
+      }
+    }
+
+    .academic-home-copy {
+      grid-row: 2;
+    }
+
+    .academic-home-news .news table {
+      th,
+      td {
+        display: block;
+        padding: 0.1rem 0;
+        width: 100% !important;
+      }
+
+      th {
+        padding-top: 0.8rem;
+      }
+    }
+  }
+}
 
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
-// TODO: redefine publications layout.
+// Publication rows shared by the homepage and publications page
+.publications {
+  ol.bibliography li {
+    margin-bottom: 2rem;
+
+    > .row {
+      align-items: flex-start;
+    }
+
+    .abbr {
+      abbr {
+        display: none;
+      }
+
+      figure {
+        margin: 0;
+      }
+
+      .preview {
+        aspect-ratio: 4 / 3;
+        background: var(--global-card-bg-color);
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+
+    .title {
+      font-size: 1.05rem;
+      line-height: 1.35;
+      margin-bottom: 0.15rem;
+    }
+
+    .author,
+    .periodical {
+      line-height: 1.45;
+    }
+
+    .links {
+      margin-top: 0.45rem;
+
+      a.btn {
+        border-radius: 2px;
+        font-size: 0.72rem;
+        font-weight: 500;
+        letter-spacing: 0.025em;
+        margin-bottom: 0.3rem;
+        margin-right: 0.35rem;
+        min-width: 3.25rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .publications ol.bibliography li {
+    .abbr {
+      margin-bottom: 1rem;
+      max-width: 220px;
+    }
+
+    .title {
+      font-size: 1rem;
+    }
+  }
+}
 
 /*****************************************************************************
 * Projects

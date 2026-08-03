@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-12-15 12:00:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Completed a Mechatronics and Robotics Fellowship at GE Aerospace Research, developing robotics-enabled tools for in-situ engine inspection and dimensional metrology.
