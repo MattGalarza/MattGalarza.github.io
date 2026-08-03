@@ -108,6 +108,8 @@ The selected publications currently contain clearly labeled placeholder abstract
 
 Each page's settings block contains `title`, `nav`, and `nav_order`. For example, `_pages/repositories.md` uses `title: software`, while its `nav_order` determines where it appears in the navigation. Smaller numbers appear first.
 
+The intended navigation is **About, Publications, Research, Software, CV**. About is added automatically because `_pages/about.md` is the homepage. The other four pages are the only files with `nav: true`; secondary pages such as News remain accessible by links but are deliberately excluded from the top navigation.
+
 ### Update the CV
 
 Edit `_data/cv.yml`. Each top-level entry is a section such as `Education`, `Experience`, or `Awards`, and the indented items beneath it become entries on the CV page. Copying a nearby entry is the safest starting point.
