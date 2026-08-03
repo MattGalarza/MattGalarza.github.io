@@ -6,7 +6,7 @@ subtitle: Aerospace Engineering PhD Candidate at Rensselaer Polytechnic Institut
 
 profile:
   align: right
-  image: profile-placeholder.svg
+  image: headshot.png
   image_circular: false
   more_info: >
     <p>Department of Mechanical, Aerospace, and Nuclear Engineering</p>
