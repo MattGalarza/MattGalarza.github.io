@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: Peer-reviewed journal articles and conference proceedings.
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 <!-- _pages/publications.md -->

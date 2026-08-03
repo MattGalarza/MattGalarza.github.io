@@ -4,7 +4,7 @@ title: research
 permalink: /research/
 description: Research in nonlinear dynamics, energy harvesting, scientific machine learning, and thermal transport.
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 ## Nonlinear dynamics and electromechanical energy harvesting

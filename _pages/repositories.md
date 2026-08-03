@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: code
+title: software
 description: Open-source models and computational tools supporting my research.
 nav: true
 nav_order: 3

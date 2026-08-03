@@ -28,6 +28,8 @@ Working through a branch and pull request keeps the public site stable while you
 - `_config.yml` - site metadata, navigation, and theme settings
 - `assets/img/` - profile photos, publication figures, and other images
 - `assets/js/theme.js` - default light/dark appearance
+- `_sass/_layout.scss` - homepage, news, publication-row, and responsive layout styling
+- `_sass/_themes.scss` - light- and dark-mode accent colors
 
 Markdown files contain a settings block at the top between `---` lines, followed by the page text. Keep the settings block intact and edit the text below it. YAML files are indentation-sensitive, so use spaces rather than tabs.
 
@@ -44,6 +46,8 @@ profile:
   align: right
   image: your-photo.jpg
 ```
+
+The current homepage uses `assets/img/profile-placeholder.svg`. Replace it with a professional portrait when ready. A square or 4:3 image with the subject centered works best. You can either overwrite the placeholder filename or upload a new image and update both `_pages/about.md` and the `og_image` setting in `_config.yml`.
 
 ### Add an announcement
 
@@ -73,11 +77,36 @@ Add a BibTeX record to `_bibliography/papers.bib`. Use a unique citation key and
   journal={Example Journal},
   year={2026},
   doi={10.0000/example},
+  bibtex_show={true},
+  html={https://doi.org/10.0000/example},
+  preview={your-publication-image.png},
+  abstract={A concise summary of the motivation, methods, and principal findings.},
+  code={https://github.com/MattGalarza/repository-name},
   selected={true}
 }
 ```
 
-Use the exact author order and metadata from the paper. A DOI is preferred when available.
+Use the exact author order and metadata from the paper. A DOI is preferred when available. Optional fields automatically create the publication buttons: `abstract` creates **ABS**, `bibtex_show={true}` creates **BIB**, `html` creates **HTML**, and `code` creates **CODE**.
+
+### Replace a publication thumbnail
+
+The temporary thumbnails are stored in `assets/img/publication_preview/`:
+
+- `placeholder-dynamics.svg`
+- `placeholder-thermal.svg`
+- `placeholder-mems.svg`
+
+Upload a cropped paper figure or schematic to that folder, preferably with a 4:3 aspect ratio. Then change the corresponding `preview` field in `_bibliography/papers.bib`:
+
+```bibtex
+preview={your-paper-figure.png}
+```
+
+The selected publications currently contain clearly labeled placeholder abstracts. Search `_bibliography/papers.bib` for `Abstract placeholder` and replace those sentences when final abstracts are ready.
+
+### Change the navigation
+
+Each page's settings block contains `title`, `nav`, and `nav_order`. For example, `_pages/repositories.md` uses `title: software`, while its `nav_order` determines where it appears in the navigation. Smaller numbers appear first.
 
 ### Update the CV
 
