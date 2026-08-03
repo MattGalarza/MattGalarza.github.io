@@ -65,7 +65,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: assets/img/IMG_6915.png # replace with the final professional portrait or a branded social-sharing image
+og_image: assets/img/headshot.jpeg
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
