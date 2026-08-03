@@ -40,32 +40,24 @@ ninja.data = [{
         },{id: "news-contributed-to-two-itherm-2025-papers-on-experimental-thermal-characterization-of-beol-materials-and-multiscale-thermal-analysis-of-3di-chip-stacks",
           title: 'Contributed to two ITherm 2025 papers on experimental thermal characterization of BEOL materials...',
           description: "",
-          section: "News",},{id: "news-our-article-investigation-of-nonlinear-phenomena-in-electrically-coupled-mechanical-oscillators-with-applications-in-electrostatic-energy-harvesting-of-low-frequency-vibrations-was-published-in-the-journal-of-vibration-and-acoustics",
-          title: 'Our article, “Investigation of Nonlinear Phenomena in Electrically Coupled Mechanical Oscillators With Applications...',
+          section: "News",},{id: "news-completed-my-time-as-a-mechatronics-and-robotics-fellow-at-ge-aerospace-research-developing-robotics-enabled-tools-for-in-situ-engine-inspection-and-dimensional-metrology",
+          title: 'Completed my time as a Mechatronics and Robotics Fellow at GE Aerospace Research,...',
           description: "",
-          section: "News",},{id: "news-completed-a-mechatronics-and-robotics-fellowship-at-ge-aerospace-research-developing-robotics-enabled-tools-for-in-situ-engine-inspection-and-dimensional-metrology",
-          title: 'Completed a Mechatronics and Robotics Fellowship at GE Aerospace Research, developing robotics-enabled tools...',
+          section: "News",},{id: "news-successfully-passed-my-candidacy-examination",
+          title: 'Successfully passed my Candidacy examination!',
+          description: "",
+          section: "News",},{id: "news-successfully-developed-a-process-to-deposit-sub-100nm-testing-structures-for-thin-film-metrology-work-sponsored-by-ibm-with-help-to-my-friend-and-colleague-jonas-sem-measurement-of-the-deposited-heater-structure-thin-film-fabrication-in-the-rpi-cleanroom",
+          title: 'Successfully developed a process to deposit sub-100nm testing structures for thin-film metrology work...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-presenting-my-work-on-designing-identifiable-anisotropic-thin-film-thermal-conductivity-measurement-by-the-3ω-method-via-a-fisher-information-approach-at-the-2026-albany-nanotechnology-symposium-ans",
+          title: 'I will be presenting my work on Designing Identifiable Anisotropic Thin-Film Thermal-Conductivity Measurement...',
           description: "",
           section: "News",},{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/MattGalarza", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6D%67%61%6C%61%72%7A%61.%72%70%69@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -75,13 +67,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/mgalarza1", "_blank");
         },
       },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile/Matthew-Galarza/", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -89,18 +74,25 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=vc0aMmYAAAAJ", "_blank");
         },
       },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Matthew-Galarza/", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/MattGalarza", "_blank");
+        },
+      },{
         id: 'social-work',
         title: 'Work',
         section: 'Socials',
         handler: () => {
           window.open("https://www.rpi.edu/", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
