@@ -516,11 +516,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/mgalarza1", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-researchgate',
+        title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.researchgate.net/profile/Matthew-Galarza/", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -530,11 +530,18 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=vc0aMmYAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-work',
+        title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.rpi.edu/", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
