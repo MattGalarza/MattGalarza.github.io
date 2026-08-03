@@ -112,6 +112,14 @@ Each page's settings block contains `title`, `nav`, and `nav_order`. For example
 
 Edit `_data/cv.yml`. Each top-level entry is a section such as `Education`, `Experience`, or `Awards`, and the indented items beneath it become entries on the CV page. Copying a nearby entry is the safest starting point.
 
+The downloadable PDF is configured in `_pages/cv.md`:
+
+```yaml
+cv_pdf: Matthew_G_Galarza_CV.pdf
+```
+
+The file itself is stored at `assets/pdf/Matthew_G_Galarza_CV.pdf`. Replace that file while keeping the same filename to update the download without editing the page configuration.
+
 ### Add a featured repository
 
 Edit `_data/repositories.yml` and add the repository in `owner/name` format:
