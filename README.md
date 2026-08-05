@@ -20,6 +20,7 @@ Working through a branch and pull request keeps the public site stable while you
 
 - `_pages/about.md` - homepage biography and research interests
 - `_pages/research.md` - research overview
+- `_pages/blog.md` - research notes and longer-form updates
 - `_bibliography/papers.bib` - journal and conference publications
 - `_data/cv.yml` - web CV
 - `_data/socials.yml` - professional profile links
@@ -47,7 +48,7 @@ profile:
   image: your-photo.jpg
 ```
 
-The current homepage uses `assets/img/profile-placeholder.svg`. Replace it with a professional portrait when ready. A square or 4:3 image with the subject centered works best. You can either overwrite the placeholder filename or upload a new image and update both `_pages/about.md` and the `og_image` setting in `_config.yml`.
+The current homepage uses `assets/img/headshot.jpeg`. A square or portrait image with the subject centered works best. To replace it, upload a new image and update both `_pages/about.md` and the `og_image` setting in `_config.yml`.
 
 ### Add an announcement
 
@@ -108,7 +109,7 @@ The selected publications currently contain clearly labeled placeholder abstract
 
 Each page's settings block contains `title`, `nav`, and `nav_order`. For example, `_pages/repositories.md` uses `title: software`, while its `nav_order` determines where it appears in the navigation. Smaller numbers appear first.
 
-The intended navigation is **About, Publications, Research, Software, CV**. About is added automatically because `_pages/about.md` is the homepage. The other four pages are the only files with `nav: true`; secondary pages such as News remain accessible by links but are deliberately excluded from the top navigation.
+The intended navigation is **About, Publications, Research, Software, Blog, CV**. About is added automatically because `_pages/about.md` is the homepage. The other five pages use `nav: true`; secondary pages such as News remain accessible by links but are deliberately excluded from the top navigation.
 
 ### Update the CV
 
