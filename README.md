@@ -19,7 +19,8 @@ Working through a branch and pull request keeps the public site stable while you
 ## Where to edit
 
 - `_pages/about.md` - homepage biography and research interests
-- `_pages/research.md` - research overview
+- `_pages/research.md` - categorized research portfolio
+- `_projects/` - individual research-card pages
 - `_pages/blog.md` - research notes and longer-form updates
 - `_bibliography/papers.bib` - journal and conference publications
 - `_data/cv.yml` - web CV
@@ -104,6 +105,23 @@ preview={your-paper-figure.png}
 ```
 
 The selected publications currently contain clearly labeled placeholder abstracts. Search `_bibliography/papers.bib` for `Abstract placeholder` and replace those sentences when final abstracts are ready.
+
+### Edit the research portfolio
+
+The Research tab is assembled from the Markdown files in `_projects/`. Each file controls one card and its detailed project page. Its settings block contains the card title, description, image, category, and order:
+
+```yaml
+---
+layout: page
+title: Example Research Project
+description: A short sentence shown on the research card.
+img: assets/img/example-project.png
+importance: 1
+category: methods and tools
+---
+```
+
+Place the detailed project description below the settings block. The categories and their display order are configured in `_pages/research.md`. Use `methods and tools` or `applications` to place a card in one of the two current sections; smaller `importance` values appear first within a section.
 
 ### Change the navigation
 
