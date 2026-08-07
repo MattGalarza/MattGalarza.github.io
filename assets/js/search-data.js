@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "research",
-          description: "Research in nonlinear dynamics, energy harvesting, scientific machine learning, and thermal transport.",
+          description: "A portfolio of active and past research projects in nonlinear dynamics, energy harvesting, scientific machine learning, and thermal transport.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -70,7 +70,32 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-presenting-my-work-on-designing-identifiable-anisotropic-thin-film-thermal-conductivity-measurement-by-the-3ω-method-via-a-fisher-information-approach-at-the-2026-albany-nanotechnology-symposium-ans",
           title: 'I will be presenting my work on Designing Identifiable Anisotropic Thin-Film Thermal-Conductivity Measurement...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-coupled-nonlinear-dynamics",
+          title: 'coupled nonlinear dynamics',
+          description: "Developing energy-based descriptions of modal interaction, stability, and transport in coupled oscillator networks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_nonlinear_dynamics/";
+            },},{id: "projects-scientific-machine-learning-and-system-identification",
+          title: 'scientific machine learning and system identification',
+          description: "Combining first-principles models with interpretable data-driven methods for uncertain and unresolved dynamics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_scientific_machine_learning/";
+            },},{id: "projects-electrostatic-mems-energy-harvesting",
+          title: 'electrostatic MEMS energy harvesting',
+          description: "Designing broadband, low-frequency electromechanical systems that convert ambient vibration into electrical energy.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_mems_energy_harvesting/";
+            },},{id: "projects-semiconductor-thin-film-thermal-transport",
+          title: 'semiconductor thin-film thermal transport',
+          description: "Measuring anisotropic thermal properties in BEOL and multilayer films for next-generation semiconductor packaging.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_thermal_transport/";
+            },},{id: "projects-engineering-translation-and-experimental-systems",
+          title: 'engineering translation and experimental systems',
+          description: "Turning analytical concepts into testable hardware, automated workflows, and inspection tools for real engineering environments.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_engineering_translation/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
