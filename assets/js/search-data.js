@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-contributed-to-two-itherm-2025-papers-on-experimental-thermal-characterization-of-beol-materials-and-multiscale-thermal-analysis-of-3di-chip-stacks",
+        },{id: "post-your-first-blog-post",
+      
+        title: "Your First Blog Post",
+      
+      description: "Replace this sentence with a short summary of your post.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/first-blog-post/";
+        
+      },
+    },{id: "news-contributed-to-two-itherm-2025-papers-on-experimental-thermal-characterization-of-beol-materials-and-multiscale-thermal-analysis-of-3di-chip-stacks",
           title: 'Contributed to two ITherm 2025 papers on experimental thermal characterization of BEOL materials...',
           description: "",
           section: "News",},{id: "news-completed-my-time-as-a-mechatronics-and-robotics-fellow-at-ge-aerospace-research-developing-robotics-enabled-tools-for-in-situ-engine-inspection-and-dimensional-metrology",
