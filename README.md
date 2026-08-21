@@ -90,13 +90,17 @@ Add a BibTeX record to `_bibliography/papers.bib`. Use a unique citation key and
 
 Use the exact author order and metadata from the paper. A DOI is preferred when available. Optional fields automatically create the publication buttons: `abstract` creates **ABS**, `bibtex_show={true}` creates **BIB**, `html` creates **HTML**, and `code` creates **CODE**.
 
+### Automatic publication checks
+
+The `Sync publications` GitHub Action runs on the first day of each month and can also be started manually from the repository's **Actions** tab. It identifies your OpenAlex author profile using DOI-bearing records already in `_bibliography/papers.bib`, checks for new DOI-bearing works, and opens a pull request when it finds any.
+
+The workflow deliberately does not publish records directly. Review its pull request for duplicate or incomplete metadata, add a publication thumbnail and any optional `abstract`, `code`, `pdf`, or `selected={true}` fields, remove the `AUTO-IMPORTED` comments, and then merge it. If an automatic publication pull request is already open, later scheduled checks pause until that pull request is reviewed.
+
+No account credential is required for the normal low-volume OpenAlex check. If OpenAlex begins enforcing an API key for the repository, create a free key and add it as the repository secret `OPENALEX_API_KEY`. Adding your ORCID iD to the workflow's `--orcid` option later will provide an even stronger author-identity match.
+
 ### Replace a publication thumbnail
 
-The temporary thumbnails are stored in `assets/img/publication_preview/`:
-
-- `placeholder-dynamics.svg`
-- `placeholder-thermal.svg`
-- `placeholder-mems.svg`
+The remaining temporary thermal thumbnail is stored at `assets/img/publication_preview/placeholder-thermal.svg`.
 
 Upload a cropped paper figure or schematic to that folder, preferably with a 4:3 aspect ratio. Then change the corresponding `preview` field in `_bibliography/papers.bib`:
 
