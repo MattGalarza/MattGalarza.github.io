@@ -1,0 +1,90 @@
+name: Sync publications
+
+on:
+  schedule:
+    - cron: "17 13 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: publication-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the website source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check for an existing publication-sync pull request
+        id: existing-pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          count=$(gh pr list --state open --head automation/publication-sync --json number --jq 'length')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Find newly indexed publications
+        if: steps.existing-pr.outputs.count == '0'
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          python scripts/sync_publications.py \
+            --author-name "Matthew G. Galarza" \
+            --institution "Rensselaer Polytechnic Institute" \
+            --min-year 2020
+
+      - name: Record whether the bibliography changed
+        if: steps.existing-pr.outputs.count == '0'
+        id: changes
+        run: |
+          if git diff --quiet -- _bibliography/papers.bib; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open a publication-review pull request
+        if: steps.existing-pr.outputs.count == '0' && steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="automation/publication-sync"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$branch"
+          git add -- _bibliography/papers.bib
+          git commit -m "Import newly indexed publications"
+          git push --force-with-lease origin "$branch"
+
+          body_file=$(mktemp)
+          printf '%s\n' \
+            '## Automatic publication import' \
+            '' \
+            'OpenAlex found one or more DOI-bearing publications that are not yet in `_bibliography/papers.bib`.' \
+            '' \
+            'Before merging:' \
+            '' \
+            '- verify the title, author order, venue, year, and DOI' \
+            '- remove any duplicate, preprint, or unrelated record' \
+            '- add `preview`, `abstract`, `code`, `pdf`, and `selected={true}` fields where appropriate' \
+            '- remove the `AUTO-IMPORTED` comments after reviewing each entry' \
+            '' \
+            'Merging this pull request will trigger the normal GitHub Pages deployment.' > "$body_file"
+
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "Review newly indexed publications" \
+            --body-file "$body_file"
