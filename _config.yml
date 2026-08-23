@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: notes and essays # blog_name will be displayed in your blog page
-blog_description: Essays on science, technology, design, and the human consequences of optimization.
+blog_name: "" # leave blank to omit the large blog heading
+blog_description: Some comments on science, technology, engineering and societal evolution
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
