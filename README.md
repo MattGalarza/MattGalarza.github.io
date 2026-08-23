@@ -49,7 +49,7 @@ profile:
   image: your-photo.jpg
 ```
 
-The current homepage uses `assets/img/headshot.jpeg`. A square or portrait image with the subject centered works best. To replace it, upload a new image and update both `_pages/about.md` and the `og_image` setting in `_config.yml`.
+The current homepage uses `assets/img/headshot2.jpeg`. A square or portrait image with the subject centered works best. To replace it, upload a new image and update both `_pages/about.md` and the `og_image` setting in `_config.yml`.
 
 ### Add an announcement
 
