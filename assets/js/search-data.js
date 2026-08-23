@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-contributed-to-two-itherm-2025-papers-on-experimental-thermal-characterization-of-beol-materials-and-multiscale-thermal-analysis-of-3di-chip-stacks",
+        },{id: "post-ai-may-not-become-human-the-world-may-become-less-human",
+      
+        title: "AI May Not Become Human. The World May Become Less Human.",
+      
+      description: "The greatest risk of artificial intelligence may be that we rebuild society around the things machines can understand.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/ai-may-not-become-human/";
+        
+      },
+    },{id: "news-contributed-to-two-itherm-2025-papers-on-experimental-thermal-characterization-of-beol-materials-and-multiscale-thermal-analysis-of-3di-chip-stacks",
           title: 'Contributed to two ITherm 2025 papers on experimental thermal characterization of BEOL materials...',
           description: "",
           section: "News",},{id: "news-completed-my-time-as-a-mechatronics-and-robotics-fellow-at-ge-aerospace-research-developing-robotics-enabled-tools-for-in-situ-engine-inspection-and-dimensional-metrology",
