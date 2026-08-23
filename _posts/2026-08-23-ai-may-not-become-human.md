@@ -34,7 +34,7 @@ The difference can look wasteful. Art does not process a bank deposit. A recepti
 
 Yet these apparently unnecessary features can produce real effects.
 
-In an influential [1984 study published in _Science_](https://doi.org/10.1126/science.6143402), patients recovering from surgery were compared based on whether their hospital windows faced a natural scene or a brick wall. Those with the natural view experienced shorter postoperative stays, received fewer negative evaluations from nurses, and used fewer strong pain medications. Later research on art and healing environments has been more mixed, and [systematic reviews appropriately caution that the evidence remains limited and heterogeneous](https://pubmed.ncbi.nlm.nih.gov/26583656/). Nevertheless, the broader lesson is important: environmental qualities that appear secondary to the official transaction can still affect the person experiencing it.
+In an influential [1984 study published in _Science_](https://pubmed.ncbi.nlm.nih.gov/6143402/), patients recovering from surgery were compared based on whether their hospital windows faced a natural scene or a brick wall. Those with the natural view experienced shorter postoperative stays, received fewer negative evaluations from nurses, and used fewer strong pain medications. Later research on art and healing environments has been more mixed, and [systematic reviews appropriately caution that the evidence remains limited and heterogeneous](https://pubmed.ncbi.nlm.nih.gov/26583656/). Nevertheless, the broader lesson is important: environmental qualities that appear secondary to the official transaction can still affect the person experiencing it.
 
 A hospital is not merely a facility in which medical procedures occur. It is a place where frightened, tired, sick, and grieving people spend time. A bank is not merely a database containing account balances. It is where people ask for help with decisions that may determine whether they can buy a home, resolve fraud, or recover from a financial mistake.
 
@@ -96,7 +96,7 @@ But perhaps the conversation prevented a catastrophic decision. Perhaps the lobb
 
 These outcomes are difficult to place on a quarterly balance sheet. That does not make them unreal.
 
-The [U.S. Surgeon General's advisory on social connection](https://www.hhs.gov/surgeongeneral/reports-and-publications/connection/index.html) emphasizes that the design of transportation, housing, public areas, and green spaces directly affects opportunities for human interaction. Social connection is not merely a private emotional preference; it is associated with health, resilience, and community well-being.
+The [U.S. Surgeon General's advisory on social connection](https://www.ncbi.nlm.nih.gov/books/NBK595227/) emphasizes that the design of transportation, housing, public areas, and green spaces directly affects opportunities for human interaction. Social connection is not merely a private emotional preference; it is associated with health, resilience, and community well-being.
 
 A reception desk is not the same thing as a public square, and a bank lobby is not automatically a community center. Still, the gradual removal of staffed, shared spaces matters because social life is partly created through repeated low-stakes encounters. We lose something when every interaction becomes an isolated exchange between one person and one screen.
 
