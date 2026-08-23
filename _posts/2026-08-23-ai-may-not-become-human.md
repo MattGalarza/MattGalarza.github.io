@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI May Not Become Human. The World May Become Less Human."
-date: 2026-08-23 12:00:00-0400
+date: 2026-08-23 09:00:00-0400
 description: The greatest risk of artificial intelligence may be that we rebuild society around the things machines can understand.
 tags: artificial-intelligence society design
 categories: essay
