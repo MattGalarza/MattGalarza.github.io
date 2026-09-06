@@ -6,7 +6,7 @@
       image: cv/rpilogo.png
       image_alt: Rensselaer Polytechnic Institute
       location: Troy, New York
-      year: May 2026
+      year: May 2027
       - title: B.S.,M.S. Mechanical Engineering
       institution: Rensselaer Polytechnic Institute
       image: cv/rpilogo.png
@@ -17,20 +17,22 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Mechatronics and Robotics Fellow
-      institution: GE Aerospace Research
-      image: cv/GE.svg
-      image_alt: GE Aerospace
-      year: Aug. - Dec. 2025
-      maindescription: Developed biologically inspired, robotics-enabled inspection and metrology tools for jet-engine damage detection and dimensional verification, reducing representative inspection workflows from approximately 50 hours to approximately 2 hours without engine teardown.
+    - title: Ph.D. Student
+      institution: Rensselaer Polytechnic Institute
+      image: cv/rpilogo.png
+      image_alt: Rensselaer Polytechnic Institute
+      year: 2023-2027
+      maindescription: Developed...
       description:
-        - Led concept-to-prototype development of Linipot-on-Demand, an in-situ probe for measuring stator and core cold-clearance distortion in assembled engines.
-        - Designed compliant, soft-robotics-inspired mechanical interfaces and an insertion protocol for tight borescope-port constraints.
-        - Engineered anchoring and stabilization strategies for repeatable measurements during probe rotation under engine-geometry and articulation constraints.
-        - Advanced camera-assisted confirmation workflows for identifying rubs, scabs, and other defects without teardown and reassembly.
-        - Processed, cleaned, aligned, and interpreted multi-scanner point-cloud datasets and produced comparative trade studies supporting scanner selection and procurement.
-        - Authored a standard operating procedure, user manual, assembly manual, and bill of materials; supported a live demonstration on an operational engine for senior GE leadership.
-        - Contributed to two patent applications and invention disclosures related to the inspection approaches.
+        - Led...
+    - title: Research Assistant
+      institution: RPI/IBM
+      image: cv/ibm.svg
+      image_alt: IBM
+      year: 2023-2027
+      maindescription: Developed...
+      description:
+        - Led...
 
 - title: Work Experience
   type: time_table
