@@ -22,7 +22,7 @@ I am an Aerospace Engineering PhD candidate at [Rensselaer Polytechnic Institute
 
 My work combines nonlinear dynamics, applied mathematics, control theory, and scientific machine learning. I use Lagrangian and Hamiltonian mechanics, stability and modal analysis, sparse system identification, neural differential equations, and numerical optimization to develop interpretable models of complex physical systems.
 
-I received my B.S. and M.Eng. degrees in Mechanical Engineering from Rensselaer and expect to complete my PhD in December 2026. My broader engineering experience includes robotics-enabled inspection and metrology at GE Aerospace Research, robotics development at Collaborative Robotics, process engineering at Tesla, and project engineering at Sanofi Pasteur.
+I received my B.S. and M.Eng. degrees in Mechanical Engineering from RPI and expect to complete my PhD in May 2026.
 
 ## Research interests
 
