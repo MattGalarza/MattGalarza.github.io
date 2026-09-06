@@ -1,8 +1,8 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news = site.news | reverse %}
-    {% assign current_news = news | where_exp: "item", "item.archived != true" %}
-    {% assign previous_news = news | where: "archived", true %}
+    {% assign current_news = news | where_exp: 'item', 'item.archived != true' %}
+    {% assign previous_news = news | where: 'archived', true %}
     {% assign current_news_size = current_news | size %}
 
     <div
