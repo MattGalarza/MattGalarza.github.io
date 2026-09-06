@@ -3,7 +3,7 @@
   contents:
     - title: Ph.D. Aerospace Engineering \\ B.S.,M.S. Mechanical Engineering
       institution: Rensselaer Polytechnic Institute
-      image: cv/rpilogo.svg
+      image: cv/rpilogo.png
       image_alt: Rensselaer Polytechnic Institute
       location: Troy, New York
       year: Expected Dec. 2026
@@ -13,7 +13,7 @@
   contents:
     - title: Mechatronics and Robotics Fellow
       institution: GE Aerospace Research
-      image: cv/ge-aerospace.svg
+      image: cv/GE.svg
       image_alt: GE Aerospace
       year: Aug. - Dec. 2025
       maindescription: Developed biologically inspired, robotics-enabled inspection and metrology tools for jet-engine damage detection and dimensional verification, reducing representative inspection workflows from approximately 50 hours to approximately 2 hours without engine teardown.
@@ -31,7 +31,7 @@
   contents:
     - title: Mechatronics and Robotics Fellow
       institution: GE Aerospace Research
-      image: cv/ge-aerospace.svg
+      image: cv/GE.svg
       image_alt: GE Aerospace
       year: Aug. - Dec. 2025
       maindescription: Developed biologically inspired, robotics-enabled inspection and metrology tools for jet-engine damage detection and dimensional verification, reducing representative inspection workflows from approximately 50 hours to approximately 2 hours without engine teardown.
@@ -56,7 +56,7 @@
         - Designed printed circuit boards in Altium and supported hardware bring-up.
     - title: Mechanical/Process Engineering Intern
       institution: Tesla Motors
-      image: cv/tesla.svg
+      image: cv/t1.png
       image_alt: Tesla
       year: May - Aug. 2021
       description:
@@ -65,7 +65,7 @@
         - Managed manufacturing and vendor relationships to obtain quotations, validate designs, and facilitate device production.
     - title: Project Management Engineering Intern
       institution: Sanofi Pasteur
-      image: cv/sanofi.svg
+      image: cv/sanofi1.png
       image_alt: Sanofi
       year: Jan. - Aug. 2020
       maindescription: Supported GMP and non-GMP engineering projects for vaccine manufacturing, maintenance, and facilities within the Technical Services-Site Engineering department.
