@@ -1,12 +1,18 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. Aerospace Engineering \\ B.S.,M.S. Mechanical Engineering
+    - title: Ph.D. Aerospace Engineering
       institution: Rensselaer Polytechnic Institute
       image: cv/rpilogo.png
       image_alt: Rensselaer Polytechnic Institute
       location: Troy, New York
       year: Expected Dec. 2026
+      - title: B.S.,M.S. Mechanical Engineering
+      institution: Rensselaer Polytechnic Institute
+      image: cv/rpilogo.png
+      image_alt: Rensselaer Polytechnic Institute
+      location: Troy, New York
+      year: May 2022
 
 - title: Research Experience
   type: time_table
