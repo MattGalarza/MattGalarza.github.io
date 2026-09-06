@@ -30,8 +30,12 @@
 
           {% if content.year or content.location %}
             <div class="cv-entry-meta">
-              {% if content.year %}<span>{{ content.year }}</span>{% endif %}
-              {% if content.location %}<span>{{ content.location }}</span>{% endif %}
+              {% if content.year -%}
+                <span>{{ content.year }}</span>
+              {%- endif %}
+              {% if content.location -%}
+                <span>{{ content.location }}</span>
+              {%- endif %}
             </div>
           {% endif %}
         </div>
@@ -48,7 +52,9 @@
                   <span class="item-title">{{ item.title }}</span>
                   <ul class="subitems">
                     {% for subitem in item.contents %}
-                      <li><span class="subitem">{{ subitem }}</span></li>
+                      <li>
+                        <span class="subitem">{{ subitem }}</span>
+                      </li>
                     {% endfor %}
                   </ul>
                 {% else %}
@@ -67,7 +73,9 @@
                   <span class="item-title">{{ item.title }}</span>
                   <ul class="subitems">
                     {% for subitem in item.contents %}
-                      <li><span class="subitem">{{ subitem }}</span></li>
+                      <li>
+                        <span class="subitem">{{ subitem }}</span>
+                      </li>
                     {% endfor %}
                   </ul>
                 {% else %}
@@ -84,7 +92,9 @@
               {% if item.link %}
                 <div class="container-link-button">
                   {% if item.linkname %}
-                    <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" class="btncv z-depth-0">{{ item.linkname }}</a>
+                    <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" class="btncv z-depth-0">
+                      {{- item.linkname -}}
+                    </a>
                   {% else %}
                     <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" class="btncv z-depth-0">doc</a>
                   {% endif %}
