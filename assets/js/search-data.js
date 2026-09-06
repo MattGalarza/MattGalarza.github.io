@@ -70,7 +70,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-presenting-my-research-at-the-37th-annual-electronics-packaging-symposium-held-september-9-10-2026-at-binghamton-university-s-innovative-technologies-complex",
           title: 'I will be presenting my research at the 37th Annual Electronics Packaging Symposium,...',
           description: "",
-          section: "News",},{id: "news-i-will-be-presenting-my-research-at-the-2026-albany-nanotechnology-symposium-ans-held-october-22-23-at-the-university-at-albany",
+          section: "News",},{id: "news-i-will-be-presenting-my-research-at-the-2026-albany-nanotechnology-symposium-ans-held-october-22-23-at-the-university-of-albany",
           title: 'I will be presenting my research at the 2026 Albany Nanotechnology Symposium (ANS),...',
           description: "",
           section: "News",},{id: "projects-coupled-nonlinear-dynamics",
