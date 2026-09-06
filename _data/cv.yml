@@ -17,6 +17,8 @@
   contents:
     - title: Doctoral Candidate, Aerospace Engineering
       institution: Rensselaer Polytechnic Institute
+      image: cv/rpi.svg
+      image_alt: Rensselaer Polytechnic Institute
       location: Troy, New York
       year: Expected Dec. 2026
       description:
@@ -24,10 +26,14 @@
         - "Advisors: Shaowu Pan, Yuri Lvov, and Diana-Andra Borca-Tasciuc."
     - title: Master of Engineering, Mechanical Engineering
       institution: Rensselaer Polytechnic Institute
+      image: cv/rpi.svg
+      image_alt: Rensselaer Polytechnic Institute
       location: Troy, New York
       year: May 2022
     - title: Bachelor of Science, Mechanical Engineering
       institution: Rensselaer Polytechnic Institute
+      image: cv/rpi.svg
+      image_alt: Rensselaer Polytechnic Institute
       location: Troy, New York
       year: May 2021
       description:
@@ -52,6 +58,8 @@
   contents:
     - title: Mechatronics and Robotics Fellow
       institution: GE Aerospace Research
+      image: cv/ge-aerospace.svg
+      image_alt: GE Aerospace
       year: Aug. - Dec. 2025
       maindescription: Developed biologically inspired, robotics-enabled inspection and metrology tools for jet-engine damage detection and dimensional verification, reducing representative inspection workflows from approximately 50 hours to approximately 2 hours without engine teardown.
       description:
@@ -64,6 +72,8 @@
         - Contributed to two patent applications and invention disclosures related to the inspection approaches.
     - title: Robotics Engineering Intern
       institution: Collaborative Robotics
+      image: cv/collaborative-robotics.svg
+      image_alt: Collaborative Robotics
       year: May - Dec. 2023
       maindescription: Supported the launch of the company's inaugural pilot robot and the development of robotic systems for perception and autonomy.
       description:
@@ -73,6 +83,8 @@
         - Designed printed circuit boards in Altium and supported hardware bring-up.
     - title: Mechanical/Process Engineering Intern
       institution: Tesla Motors
+      image: cv/tesla.svg
+      image_alt: Tesla
       year: May - Aug. 2021
       description:
         - Designed and evaluated pressure-relief systems, including relief valves and pressure-vacuum relief valves, based on operating limits and potential failure conditions.
@@ -80,6 +92,8 @@
         - Managed manufacturing and vendor relationships to obtain quotations, validate designs, and facilitate device production.
     - title: Project Management Engineering Intern
       institution: Sanofi Pasteur
+      image: cv/sanofi.svg
+      image_alt: Sanofi
       year: Jan. - Aug. 2020
       maindescription: Supported GMP and non-GMP engineering projects for vaccine manufacturing, maintenance, and facilities within the Technical Services-Site Engineering department.
       description:
@@ -91,6 +105,8 @@
   contents:
     - title: Nonlinear Dynamics and Data-Driven Optimization of Electromechanical Energy Harvesters
       institution: Rensselaer Polytechnic Institute
+      image: cv/rpi.svg
+      image_alt: Rensselaer Polytechnic Institute
       year: Jan. 2024 - Dec. 2026
       maindescription: Graduate research integrating applied mathematics, nonlinear dynamical systems, control theory, and scientific machine learning to analyze and optimize coupled electromechanical energy-harvesting systems.
       description:
@@ -100,6 +116,8 @@
         - Used sparse system identification, including SINDy, to discover interpretable governing equations, identify missing physics, and refine hybrid gray-box models.
     - title: IBM Thin Films Fabrication Research
       institution: Rensselaer Polytechnic Institute
+      image: cv/ibm.svg
+      image_alt: IBM
       year: May 2024 - Dec. 2025
       maindescription: IBM-sponsored graduate research on semiconductor thin-film processing and electrothermal characterization for next-generation semiconductor fabrication.
       description:
@@ -109,6 +127,8 @@
         - Developed automated data-processing and parameter-estimation tools to identify material-performance trends.
     - title: Electrostatic MEMS Energy Harvesting for Sensing Power
       institution: Rensselaer Polytechnic Institute
+      image: cv/rpi.svg
+      image_alt: Rensselaer Polytechnic Institute
       year: Jan. 2020 - May 2023
       maindescription: Analytical modeling, topology optimization, fabrication, and testing of an impact-based MEMS electrostatic frequency up-converter.
       description:
@@ -122,48 +142,64 @@
   contents:
     - title: Investigation of Nonlinear Phenomena in Electrically Coupled Mechanical Oscillators With Applications in Electrostatic Energy Harvesting of Low Frequency Vibrations
       institution: Journal of Vibration and Acoustics, Vol. 147, No. 5, 051006
+      image: publication_preview/JVA2025_1.png
+      image_alt: Journal of Vibration and Acoustics paper preview
       year: "2025"
       linkitems:
         - link: https://doi.org/10.1115/1.4068811
           linkname: DOI
     - title: Experimental Cross-Plane Thermal Transport Characterization of BEOL Materials and Sensitivity to In-Plane Thermal Transport
       institution: 24th IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems
+      image: publication_preview/placeholder-thermal.svg
+      image_alt: Cross-plane thermal transport paper preview
       year: "2025"
       linkitems:
         - link: https://research.ibm.com/publications/experimental-cross-plane-thermal-transport-characterization-of-beol-materials-and-sensitivity-to-in-plane-thermal-transport
           linkname: PAPER
     - title: A Multiscale Workflow for Thermal Analysis of 3DI Chip Stacks
       institution: 24th IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems
+      image: publication_preview/Itherm2024.png
+      image_alt: 3DI chip-stack thermal analysis paper preview
       year: "2025"
       linkitems:
         - link: https://doi.org/10.1109/ITherm55376.2025.11235683
           linkname: DOI
     - title: Effective Medium Approximation in Investigating Heat Transfer Through Multiple Sandwiched Layers of BEOL Materials
       institution: ASME 2025 Heat Transfer Summer Conference
+      image: publication_preview/placeholder-thermal.svg
+      image_alt: BEOL heat-transfer paper preview
       year: "2025"
       linkitems:
         - link: https://doi.org/10.1115/HT2025-155734
           linkname: DOI
     - title: Investigation of Energy Exchange Between Coupled Electro-Mechanical Conservative Oscillators
       institution: ASME 2025 Aerospace Structures, Structural Dynamics, and Materials Conference
+      image: publication_preview/IMECE2025.png
+      image_alt: Coupled electro-mechanical oscillators paper preview
       year: "2025"
       linkitems:
         - link: https://doi.org/10.1115/SSDM2025-152235
           linkname: DOI
     - title: Investigation of Nonlinear Phenomena in Electrically Coupled Mechanical Oscillators With Applications in Electrostatic Energy Harvesting of Low Frequency Vibrations
       institution: ASME 2024 International Mechanical Engineering Congress and Exposition
+      image: publication_preview/JVA2025.png
+      image_alt: Nonlinear electrostatic energy-harvesting paper preview
       year: "2024"
       linkitems:
         - link: https://doi.org/10.1115/IMECE2024-145041
           linkname: DOI
     - title: Broadband Vibration-Based Energy Harvesting for Wireless Sensor Applications Using Frequency Upconversion
       institution: Sensors, Vol. 23, No. 11, 5296
+      image: publication_preview/sensors2023.png
+      image_alt: Broadband vibration energy-harvesting paper preview
       year: "2023"
       linkitems:
         - link: https://doi.org/10.3390/s23115296
           linkname: DOI
     - title: A Novel Comb Design for Enhanced Power and Bandwidth in Electrostatic MEMS Energy Converters
       institution: IEEE 36th International Conference on Micro Electro Mechanical Systems
+      image: publication_preview/IEEE2023.png
+      image_alt: Electrostatic MEMS converter paper preview
       year: "2023"
       linkitems:
         - link: https://doi.org/10.1109/MEMS49605.2023.10052590
@@ -174,18 +210,24 @@
   contents:
     - title: Graduate Teaching Assistant
       institution: RPI Department of Mechanical, Aerospace, and Nuclear Engineering
+      image: cv/rpi.svg
+      image_alt: Rensselaer Polytechnic Institute
       year: Jan. 2022 - Dec. 2025
       description:
         - Held regularly scheduled office hours to advise and assist students.
         - Assigned and evaluated problem sets and examinations and provided technical feedback.
     - title: Member
       institution: IEEE Electronics Packaging Society
+      image: cv/ieee.svg
+      image_alt: IEEE
       year: Sept. - Dec. 2024
       description:
         - Introduced undergraduate and early graduate students to the semiconductor industry through workshops and presentations.
         - Attended technical colloquia led by industry professionals.
     - title: RM26 Thermal System Design Lead
       institution: Rensselaer Motorsport, Formula SAE
+      image: cv/rpi.svg
+      image_alt: Rensselaer Motorsport
       year: Sept. 2021 - May 2023
       description:
         - Led a team responsible for designing, prototyping, and testing vehicle thermal-system components.
