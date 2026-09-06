@@ -1,59 +1,32 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Matthew G. Galarza
-    - name: Current Position
-      value: Aerospace Engineering PhD Candidate
-    - name: Institution
-      value: Rensselaer Polytechnic Institute
-    - name: Research Areas
-      value: Nonlinear dynamics, electromechanical energy harvesting, scientific machine learning, system identification, and thin-film thermal transport
-    - name: Website
-      value: mattgalarza.github.io
-
 - title: Education
   type: time_table
   contents:
-    - title: Doctoral Candidate, Aerospace Engineering
+    - title: Ph.D. Aerospace Engineering \\ B.S.,M.S. Mechanical Engineering
       institution: Rensselaer Polytechnic Institute
-      image: cv/rpi.svg
+      image: cv/rpilogo.svg
       image_alt: Rensselaer Polytechnic Institute
       location: Troy, New York
       year: Expected Dec. 2026
-      description:
-        - Research focus: nonlinear dynamics and data-driven optimization of electromechanical energy harvesters.
-        - "Advisors: Shaowu Pan, Yuri Lvov, and Diana-Andra Borca-Tasciuc."
-    - title: Master of Engineering, Mechanical Engineering
-      institution: Rensselaer Polytechnic Institute
-      image: cv/rpi.svg
-      image_alt: Rensselaer Polytechnic Institute
-      location: Troy, New York
-      year: May 2022
-    - title: Bachelor of Science, Mechanical Engineering
-      institution: Rensselaer Polytechnic Institute
-      image: cv/rpi.svg
-      image_alt: Rensselaer Polytechnic Institute
-      location: Troy, New York
-      year: May 2021
-      description:
-        - Dean's List, 2018-2022.
-        - Rensselaer Recognition Award, 2017-2022.
 
-- title: Relevant Coursework
-  type: list
+- title: Research Experience
+  type: time_table
   contents:
-    - Scientific Machine Learning
-    - System Identification
-    - System Analysis Techniques
-    - Nonlinear Dynamics
-    - Control Systems
-    - Thermodynamics and Heat Transfer
-    - Fluid Mechanics
-    - Numerical Design Optimization
-    - Finite Element Analysis
+    - title: Mechatronics and Robotics Fellow
+      institution: GE Aerospace Research
+      image: cv/ge-aerospace.svg
+      image_alt: GE Aerospace
+      year: Aug. - Dec. 2025
+      maindescription: Developed biologically inspired, robotics-enabled inspection and metrology tools for jet-engine damage detection and dimensional verification, reducing representative inspection workflows from approximately 50 hours to approximately 2 hours without engine teardown.
+      description:
+        - Led concept-to-prototype development of Linipot-on-Demand, an in-situ probe for measuring stator and core cold-clearance distortion in assembled engines.
+        - Designed compliant, soft-robotics-inspired mechanical interfaces and an insertion protocol for tight borescope-port constraints.
+        - Engineered anchoring and stabilization strategies for repeatable measurements during probe rotation under engine-geometry and articulation constraints.
+        - Advanced camera-assisted confirmation workflows for identifying rubs, scabs, and other defects without teardown and reassembly.
+        - Processed, cleaned, aligned, and interpreted multi-scanner point-cloud datasets and produced comparative trade studies supporting scanner selection and procurement.
+        - Authored a standard operating procedure, user manual, assembly manual, and bill of materials; supported a live demonstration on an operational engine for senior GE leadership.
+        - Contributed to two patent applications and invention disclosures related to the inspection approaches.
 
-- title: Engineering Experience
+- title: Work Experience
   type: time_table
   contents:
     - title: Mechatronics and Robotics Fellow
@@ -99,154 +72,3 @@
       description:
         - Performed field verification and CAD revision of more than 100 engineering drawings, including water, formulation, equipment, autoclave, compressed-air, and piping and instrumentation drawings.
         - Supported a project diverting 5,122 tons of egg waste and 9,050 industrial plastic totes from landfills annually through mechanical design, field testing, troubleshooting, and data collection.
-
-- title: Research Experience
-  type: time_table
-  contents:
-    - title: Nonlinear Dynamics and Data-Driven Optimization of Electromechanical Energy Harvesters
-      institution: Rensselaer Polytechnic Institute
-      image: cv/rpi.svg
-      image_alt: Rensselaer Polytechnic Institute
-      year: Jan. 2024 - Dec. 2026
-      maindescription: Graduate research integrating applied mathematics, nonlinear dynamical systems, control theory, and scientific machine learning to analyze and optimize coupled electromechanical energy-harvesting systems.
-      description:
-        - "Advisors: Shaowu Pan, Yuri Lvov, and Diana-Andra Borca-Tasciuc."
-        - Analyzed energy conversion, nonlinear phenomena, mixing entropy, stability, and eigenvalue and eigenmode behavior using Lagrangian, Hamiltonian, and Newtonian mechanics.
-        - Applied neural ordinary differential equations and universal differential equations to identify latent dynamics and augment first-principles models with data-driven corrections.
-        - Used sparse system identification, including SINDy, to discover interpretable governing equations, identify missing physics, and refine hybrid gray-box models.
-    - title: IBM Thin Films Fabrication Research
-      institution: Rensselaer Polytechnic Institute
-      image: cv/ibm.svg
-      image_alt: IBM
-      year: May 2024 - Dec. 2025
-      maindescription: IBM-sponsored graduate research on semiconductor thin-film processing and electrothermal characterization for next-generation semiconductor fabrication.
-      description:
-        - "Advisor: Theodorian Borca-Tasciuc."
-        - Processed wafers using photolithography, thickness metrology, electron-beam evaporation, and liftoff to fabricate thermal-conductivity test structures.
-        - Used the 3-omega electrothermal method to characterize in-plane and cross-plane thin-film thermal transport.
-        - Developed automated data-processing and parameter-estimation tools to identify material-performance trends.
-    - title: Electrostatic MEMS Energy Harvesting for Sensing Power
-      institution: Rensselaer Polytechnic Institute
-      image: cv/rpi.svg
-      image_alt: Rensselaer Polytechnic Institute
-      year: Jan. 2020 - May 2023
-      maindescription: Analytical modeling, topology optimization, fabrication, and testing of an impact-based MEMS electrostatic frequency up-converter.
-      description:
-        - "Advisor: Diana-Andra Borca-Tasciuc."
-        - Derived models for viscous fluid damping, electrostatic coupling, and collision dynamics.
-        - Applied Gaussian-process Bayesian optimization with Latin hypercube sampling to improve output voltage and identify geometric design trends.
-        - Fabricated devices in a cleanroom and characterized performance through frequency sweeps, applied acceleration, and DC-voltage bias.
-
-- title: Selected Publications
-  type: time_table
-  contents:
-    - title: Investigation of Nonlinear Phenomena in Electrically Coupled Mechanical Oscillators With Applications in Electrostatic Energy Harvesting of Low Frequency Vibrations
-      institution: Journal of Vibration and Acoustics, Vol. 147, No. 5, 051006
-      image: publication_preview/JVA2025_1.png
-      image_alt: Journal of Vibration and Acoustics paper preview
-      year: "2025"
-      linkitems:
-        - link: https://doi.org/10.1115/1.4068811
-          linkname: DOI
-    - title: Experimental Cross-Plane Thermal Transport Characterization of BEOL Materials and Sensitivity to In-Plane Thermal Transport
-      institution: 24th IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems
-      image: publication_preview/placeholder-thermal.svg
-      image_alt: Cross-plane thermal transport paper preview
-      year: "2025"
-      linkitems:
-        - link: https://research.ibm.com/publications/experimental-cross-plane-thermal-transport-characterization-of-beol-materials-and-sensitivity-to-in-plane-thermal-transport
-          linkname: PAPER
-    - title: A Multiscale Workflow for Thermal Analysis of 3DI Chip Stacks
-      institution: 24th IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems
-      image: publication_preview/Itherm2024.png
-      image_alt: 3DI chip-stack thermal analysis paper preview
-      year: "2025"
-      linkitems:
-        - link: https://doi.org/10.1109/ITherm55376.2025.11235683
-          linkname: DOI
-    - title: Effective Medium Approximation in Investigating Heat Transfer Through Multiple Sandwiched Layers of BEOL Materials
-      institution: ASME 2025 Heat Transfer Summer Conference
-      image: publication_preview/placeholder-thermal.svg
-      image_alt: BEOL heat-transfer paper preview
-      year: "2025"
-      linkitems:
-        - link: https://doi.org/10.1115/HT2025-155734
-          linkname: DOI
-    - title: Investigation of Energy Exchange Between Coupled Electro-Mechanical Conservative Oscillators
-      institution: ASME 2025 Aerospace Structures, Structural Dynamics, and Materials Conference
-      image: publication_preview/IMECE2025.png
-      image_alt: Coupled electro-mechanical oscillators paper preview
-      year: "2025"
-      linkitems:
-        - link: https://doi.org/10.1115/SSDM2025-152235
-          linkname: DOI
-    - title: Investigation of Nonlinear Phenomena in Electrically Coupled Mechanical Oscillators With Applications in Electrostatic Energy Harvesting of Low Frequency Vibrations
-      institution: ASME 2024 International Mechanical Engineering Congress and Exposition
-      image: publication_preview/JVA2025.png
-      image_alt: Nonlinear electrostatic energy-harvesting paper preview
-      year: "2024"
-      linkitems:
-        - link: https://doi.org/10.1115/IMECE2024-145041
-          linkname: DOI
-    - title: Broadband Vibration-Based Energy Harvesting for Wireless Sensor Applications Using Frequency Upconversion
-      institution: Sensors, Vol. 23, No. 11, 5296
-      image: publication_preview/sensors2023.png
-      image_alt: Broadband vibration energy-harvesting paper preview
-      year: "2023"
-      linkitems:
-        - link: https://doi.org/10.3390/s23115296
-          linkname: DOI
-    - title: A Novel Comb Design for Enhanced Power and Bandwidth in Electrostatic MEMS Energy Converters
-      institution: IEEE 36th International Conference on Micro Electro Mechanical Systems
-      image: publication_preview/IEEE2023.png
-      image_alt: Electrostatic MEMS converter paper preview
-      year: "2023"
-      linkitems:
-        - link: https://doi.org/10.1109/MEMS49605.2023.10052590
-          linkname: DOI
-
-- title: Teaching and Leadership
-  type: time_table
-  contents:
-    - title: Graduate Teaching Assistant
-      institution: RPI Department of Mechanical, Aerospace, and Nuclear Engineering
-      image: cv/rpi.svg
-      image_alt: Rensselaer Polytechnic Institute
-      year: Jan. 2022 - Dec. 2025
-      description:
-        - Held regularly scheduled office hours to advise and assist students.
-        - Assigned and evaluated problem sets and examinations and provided technical feedback.
-    - title: Member
-      institution: IEEE Electronics Packaging Society
-      image: cv/ieee.svg
-      image_alt: IEEE
-      year: Sept. - Dec. 2024
-      description:
-        - Introduced undergraduate and early graduate students to the semiconductor industry through workshops and presentations.
-        - Attended technical colloquia led by industry professionals.
-    - title: RM26 Thermal System Design Lead
-      institution: Rensselaer Motorsport, Formula SAE
-      image: cv/rpi.svg
-      image_alt: Rensselaer Motorsport
-      year: Sept. 2021 - May 2023
-      description:
-        - Led a team responsible for designing, prototyping, and testing vehicle thermal-system components.
-        - Coordinated technical decisions across vehicle subsystem teams.
-
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: Programming and scientific computing
-      items:
-        - Julia, Python, MATLAB, Simulink, Mathematica, Maple, and HTML
-        - NumPy, pandas, Seaborn, PyTorch, TensorFlow, and Keras
-    - title: Modeling and analysis
-      items:
-        - Nonlinear dynamics, system identification, controls, numerical optimization, heat transfer, thermodynamics, and finite element analysis
-        - Lagrangian and Hamiltonian mechanics, SINDy, neural differential equations, and Bayesian optimization
-    - title: Engineering and design software
-      items:
-        - Siemens NX, SolidWorks, ANSYS APDL, PolyWorks, Altium, AutoCAD, Revit, Seeq, and Microsoft Office
-    - title: Experimental and fabrication methods
-      items:
-        - Photolithography, electron-beam evaporation, liftoff, cleanroom processing, 3-omega thermal characterization, metrology, and point-cloud analysis
