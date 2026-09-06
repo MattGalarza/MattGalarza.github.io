@@ -315,3 +315,62 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+// Collapsible archive for older news
+.news {
+  .news-archive {
+    border-top: 1px solid var(--global-divider-color);
+    margin-top: 0.65rem;
+    padding-top: 0.8rem;
+
+    summary {
+      align-items: baseline;
+      color: var(--global-text-color-light);
+      cursor: pointer;
+      display: flex;
+      font-size: 0.95rem;
+      font-weight: 500;
+      gap: 0.45rem;
+      list-style: none;
+      width: fit-content;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::before {
+        color: var(--global-theme-color);
+        content: "+";
+        font-family: monospace;
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+
+    &[open] summary::before {
+      content: "−";
+    }
+
+    .news-archive-title,
+    .news-archive-count {
+      color: inherit;
+    }
+
+    .news-archive-count {
+      font-size: 0.85rem;
+      font-weight: 400;
+    }
+
+    .table-responsive {
+      margin-top: 0.5rem;
+    }
+
+    table {
+      margin-bottom: 0;
+    }
+  }
+}
