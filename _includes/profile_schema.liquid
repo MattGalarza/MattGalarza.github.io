@@ -1,0 +1,44 @@
+{% if page.url == '/' %}
+  {% capture profile_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
+  {% assign profile_image = page.profile.image | prepend: '/assets/img/' | absolute_url %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "@id": {{ '/#person' | absolute_url | jsonify }},
+        "name": {{ profile_name | strip | jsonify }},
+        "alternateName": ["Matthew Galarza", "M. G. Galarza", "MG Galarza"],
+        "url": {{ '/' | absolute_url | jsonify }},
+        "image": {{ profile_image | jsonify }},
+        "jobTitle": "Aerospace Engineering PhD Candidate",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Rensselaer Polytechnic Institute",
+          "url": "https://www.rpi.edu/"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Rensselaer Polytechnic Institute",
+          "url": "https://www.rpi.edu/"
+        },
+        "sameAs": [
+          "https://scholar.google.com/citations?user=vc0aMmYAAAAJ",
+          "https://www.linkedin.com/in/mgalarza1",
+          "https://www.researchgate.net/profile/Matthew-Galarza",
+          "https://github.com/MattGalarza",
+          "https://dblp.org/pid/350/9738.html"
+        ],
+        "knowsAbout": [
+          "Nonlinear dynamics",
+          "Electromechanical energy harvesting",
+          "Microelectromechanical systems",
+          "Scientific machine learning",
+          "System identification",
+          "Thin-film thermal transport"
+        ]
+      }
+    }
+  </script>
+{% endif %}

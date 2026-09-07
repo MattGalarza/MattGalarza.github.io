@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Aerospace Engineering PhD Candidate at Rensselaer Polytechnic Institute
+description: Matthew G. Galarza is an Aerospace Engineering PhD candidate at Rensselaer Polytechnic Institute researching nonlinear dynamics, electromechanical energy harvesting, scientific machine learning, and thermal transport.
 
 profile:
   align: right
@@ -22,7 +23,7 @@ I am an Aerospace Engineering PhD candidate at [Rensselaer Polytechnic Institute
 
 My work combines nonlinear dynamics, applied mathematics, control theory, and scientific machine learning. I use Lagrangian and Hamiltonian mechanics, stability and modal analysis, sparse system identification, neural differential equations, and numerical optimization to develop interpretable models of complex physical systems.
 
-I received my B.S. and M.Eng. degrees in Mechanical Engineering from RPI and expect to complete my PhD in May 2026.
+I received my B.S. and M.Eng. degrees in Mechanical Engineering from RPI and expect to complete my PhD in May 2027.
 
 ## Research interests
 
