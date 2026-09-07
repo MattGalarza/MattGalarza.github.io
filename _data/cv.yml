@@ -7,7 +7,7 @@
       image_alt: Rensselaer Polytechnic Institute
       location: Troy, New York
       year: May 2027
-      - title: B.S.,M.S. Mechanical Engineering
+    - title: B.S. and M.Eng., Mechanical Engineering
       institution: Rensselaer Polytechnic Institute
       image: cv/rpilogo.png
       image_alt: Rensselaer Polytechnic Institute
@@ -22,17 +22,21 @@
       image: cv/rpilogo.png
       image_alt: Rensselaer Polytechnic Institute
       year: 2023-2027
-      maindescription: Developed...
+      maindescription: Graduate research integrating applied mathematics, nonlinear dynamics, control theory, and scientific machine learning to analyze and optimize coupled electromechanical energy-harvesting systems.
       description:
-        - Led...
+        - Analyzed energy conversion, nonlinear phenomena, stability, and modal behavior using Lagrangian, Hamiltonian, and Newtonian mechanics.
+        - Applied sparse system identification and neural differential equations to discover latent dynamics, identify missing physics, and refine interpretable hybrid models.
+        - Developed analytical and numerical models of electrostatic MEMS energy harvesters, including nonlinear coupling and collision dynamics.
     - title: Research Assistant
       institution: RPI/IBM
       image: cv/ibm.svg
       image_alt: IBM
       year: 2023-2027
-      maindescription: Developed...
+      maindescription: IBM-sponsored graduate research on semiconductor thin-film processing and electrothermal characterization for next-generation semiconductor fabrication.
       description:
-        - Led...
+        - Fabricated thermal-conductivity test structures using photolithography, thickness metrology, electron-beam evaporation, and liftoff.
+        - Used the 3-omega electrothermal method to characterize in-plane and cross-plane thin-film thermal transport.
+        - Developed automated data-processing and parameter-estimation tools to identify material-performance trends.
 
 - title: Work Experience
   type: time_table
