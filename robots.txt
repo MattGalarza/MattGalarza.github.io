@@ -1,1 +1,4 @@
-User-agent: * Disallow: Sitemap: https://MattGalarza.github.io/sitemap.xml
+User-agent: *
+Disallow:
+
+Sitemap: https://mattgalarza.github.io/sitemap.xml
