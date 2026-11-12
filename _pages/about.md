@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Aerospace Engineering PhD candidate at [Rensselaer Polytechnic Institute](https://www.rpi.edu/). My research examines how energy is transferred, converted, and dissipated in coupled nonlinear systems, with a particular focus on electromechanical energy harvesters.
+I am an Aerospace Engineering PhD candidate at [Rensselaer Polytechnic Institute](https://www.rpi.edu/). My research examines how energy is transferred, converted, and dissipated in coupled nonlinear systems, with a particular focus on coupled oscillator theory.
 
 My work combines nonlinear dynamics, applied mathematics, control theory, and scientific machine learning. I use Lagrangian and Hamiltonian mechanics, stability and modal analysis, sparse system identification, neural differential equations, and numerical optimization to develop interpretable models of complex physical systems.
 
