@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Presented my research on designing identifiable 3ω measurements of anisotropic thin films at the [2026 Albany Nanotechnology Symposium (ANS)](https://events.albany.edu/event/albany-nanotechnology-symposium-ans-2026), held October 22–23 at the University at Albany.
+Presented my research on designing identifiable 3ω measurements of anisotropic thin films at the [2026 Albany Nanotechnology Symposium (ANS)](https://events.albany.edu/event/albany-nanotechnology-symposium-ans-2026), held October 22-23 at the University at Albany.
 
 <div class="news-image-pair" aria-label="Albany Nanotechnology Symposium 2026 poster presentation">
   <figure>
