@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be presenting my research at the [2026 MRS Fall Meeting & Exhibit](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting), held November 29–December 4 in Boston, Massachusetts.
+I will be presenting my research at the 2026 MRS Fall Meeting & Exhibit, held November 29–December 4 in Boston, Massachusetts.
